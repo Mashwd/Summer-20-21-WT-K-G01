@@ -1,0 +1,51 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<link rel="stylesheet" type="text/css" href="TempleteStyle.css">
+	<script src="search.js"></script>
+	<title>Product List</title>
+</head>
+<body>
+	<div class="parent">
+		<br>
+		<div id="head">
+			<img src="e-shop.png" alt="logo" id="img1">
+
+			<div id="id1">
+				E-Shop
+			</div>
+			
+			<div id="id2">
+				You shop, We ship
+			</div>
+		</div>
+		<br>
+	</div>
+	<div id="b1">
+			<span style="color: white;"><?php 
+	 include 'homepage-include.php' ?></span>
+	</div>
+
+	<hr style="display: block; width: 100%;">	
+	<h1><?php include 'top-heading.php';?>
+	<form action="shop-products-action.php" method="GET" name="mForm" onsubmit="getData(this); return false;">
+		<input type="text" name="name" ">
+		<input type="submit"name="search"value="search">
+		<p>Go to  <a href="add-to-cart.php">Yous Cart</a></p>
+		
+
+
+
+	</form>
+	<div id="result"></div>
+	
+	 </h1>
+	
+
+</body>
+</html>

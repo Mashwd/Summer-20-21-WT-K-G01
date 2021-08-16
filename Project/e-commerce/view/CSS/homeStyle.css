@@ -1,0 +1,26 @@
+#noticeForm{
+  background: floralwhite;
+  padding: 5px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#noticeForm textarea{
+  font-family: sans-serif;
+}
+#noticeForm input{
+  width: 100%;
+  background-color: darkcyan;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#noticeForm input:hover{
+  background-color: #8600b3;
+}
+
+.vl {
+  margin-left: 10px;
+  margin-right: 10px;
+    }

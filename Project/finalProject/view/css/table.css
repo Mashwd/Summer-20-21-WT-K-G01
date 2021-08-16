@@ -1,0 +1,15 @@
+th, td {
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+table {
+  width: 100%;
+}
+
+th {
+  height: 70px;
+}
+th {
+  background-color: #04AA6D;
+  color: white;
+}

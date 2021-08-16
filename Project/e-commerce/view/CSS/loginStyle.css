@@ -1,0 +1,61 @@
+button{
+	margin-left: 3px;
+	background: #800000; 
+	color: white;
+	cursor: pointer;
+	transition: 0.3s;
+}
+button:hover{
+	background-color: white;  
+	color: #800000;
+}
+
+#submit{
+	width: 98.5%; 
+	margin-left: 2px;
+	border-radius: 20px; 
+	background-color: powderblue;
+	cursor: pointer;
+	transition: 0.3s;
+}
+#submit:hover{
+	background-color: lightgoldenrodyellow;  
+	color: #000000;
+}
+form .i1{
+	outline-offset: 1px;
+}
+.alert {
+	position: fixed;
+	display: none;
+  	padding: 20px;
+  	background-color: #f44336;
+  	color: white;
+ 	max-width: 350px;
+ 	width: 50%;
+ 	opacity: 1;
+ 	transition: opacity .6s;
+ 	margin: 0 auto;
+	left: 0;
+	right: 0;
+	border-radius: 15px;
+}
+
+.closebtn {
+  	margin-left: 15px;
+  	color: white;
+  	font-weight: bold;
+  	float: right;
+  	font-size: 22px;
+  	line-height: 20px;
+  	cursor: pointer;
+  	transition: 0.3s;
+}
+
+.closebtn:hover {
+  	color: black;
+}
+
+form #accountType1, #accountType2{
+	cursor: pointer;
+}

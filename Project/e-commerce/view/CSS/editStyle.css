@@ -1,0 +1,87 @@
+input[type=submit]{
+	width: 98.5%; 
+	margin-left: 2px; 
+	border-radius: 20px; 
+	/*background-color: powderblue;*/
+	background-color: #00994C; 
+	color: white; 
+	border-color:white; 
+	border-style: groove;
+	cursor: pointer;
+	transition: 0.3s;
+}
+input[type=submit]:hover{
+	background-color: lightgoldenrodyellow;
+	color: black;
+}
+
+form .i1{
+	outline-offset: 1px;
+}
+.alert {
+	position: fixed;
+	display: none;
+  	padding: 20px;
+  	background-color: #f44336;
+  	color: white;
+ 	max-width: 350px;
+ 	width: 50%;
+ 	opacity: 1;
+ 	transition: opacity .6s;
+ 	margin: 0 auto;
+	left: 0;
+	right: 0;
+	border-radius: 15px;
+	z-index: 3;
+}
+
+.closebtn {
+  	margin-left: 15px;
+  	color: white;
+  	font-weight: bold;
+  	float: right;
+  	font-size: 22px;
+  	line-height: 20px;
+  	cursor: pointer;
+  	transition: 0.3s;
+}
+
+.closebtn:hover {
+  	color: black;
+}
+
+.alert1 {
+	position: fixed;
+	display: none;
+  	padding: 20px;
+  	background-color: #f44336;
+  	color: white;
+ 	max-width: 350px;
+ 	width: 50%;
+ 	opacity: 1;
+ 	transition: opacity .6s;
+ 	margin: 0 auto;
+	left: 0;
+	right: 0;
+	border-radius: 15px;
+	z-index: 3;
+}
+
+.closebtn1 {
+  	margin-left: 15px;
+  	color: white;
+  	font-weight: bold;
+  	float: right;
+  	font-size: 22px;
+  	line-height: 20px;
+  	cursor: pointer;
+  	transition: 0.3s;
+}
+
+.closebtn1:hover {
+  	color: black;
+}
+
+form #accountType1, #accountType2{
+	cursor: pointer;
+}

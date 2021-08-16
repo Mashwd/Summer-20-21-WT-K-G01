@@ -1,0 +1,1 @@
+<button style="color:green;"" onclick="document.location.href='../controller/notice.php'">Notice</button>
